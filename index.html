@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>be1.ru</title>
+</head>
+<body>
+<p>&lt;!DOCTYPE html&gt;<br />
+&lt;html lang=&quot;ru&quot;&gt;<br />
+&lt;head&gt;<br />
+&nbsp; &lt;meta charset=&quot;UTF-8&quot;&gt;<br />
+&nbsp; &lt;title&gt;bg.green_yard&lt;/title&gt;<br />
+&nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
+&nbsp; &lt;style&gt;<br />
+&nbsp; &nbsp; /* Сброс и базовый стиль */<br />
+&nbsp; &nbsp; body, html {<br />
+&nbsp; &nbsp; &nbsp; margin: 0;<br />
+&nbsp; &nbsp; &nbsp; padding: 0;<br />
+&nbsp; &nbsp; &nbsp; height: 100%;<br />
+&nbsp; &nbsp; &nbsp; font-family: Arial, sans-serif;<br />
+&nbsp; &nbsp; &nbsp; background-color: #f0f2f5;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; /* Прелоадер */<br />
+&nbsp; &nbsp; #preloader {<br />
+&nbsp; &nbsp; &nbsp; position: fixed;<br />
+&nbsp; &nbsp; &nbsp; top: 0;<br />
+&nbsp; &nbsp; &nbsp; left: 0;<br />
+&nbsp; &nbsp; &nbsp; width: 100%;<br />
+&nbsp; &nbsp; &nbsp; height: 100%;<br />
+&nbsp; &nbsp; &nbsp; background-color: #000;<br />
+&nbsp; &nbsp; &nbsp; display: flex;<br />
+&nbsp; &nbsp; &nbsp; justify-content: center;<br />
+&nbsp; &nbsp; &nbsp; align-items: center;<br />
+&nbsp; &nbsp; &nbsp; z-index: 9999;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; #preloader img {<br />
+&nbsp; &nbsp; &nbsp; width: 200px;<br />
+&nbsp; &nbsp; &nbsp; animation: pulse 1.5s infinite;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; @keyframes pulse {<br />
+&nbsp; &nbsp; &nbsp; 0% { transform: scale(1); opacity: 1; }<br />
+&nbsp; &nbsp; &nbsp; 50% { transform: scale(1.05); opacity: 0.8; }<br />
+&nbsp; &nbsp; &nbsp; 100% { transform: scale(1); opacity: 1; }<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; /* Основной контент */<br />
+&nbsp; &nbsp; #content {<br />
+&nbsp; &nbsp; &nbsp; display: none;<br />
+&nbsp; &nbsp; &nbsp; padding: 20px;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; h1 {<br />
+&nbsp; &nbsp; &nbsp; text-align: center;<br />
+&nbsp; &nbsp; &nbsp; margin-bottom: 20px;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; .columns {<br />
+&nbsp; &nbsp; &nbsp; display: flex;<br />
+&nbsp; &nbsp; &nbsp; flex-wrap: wrap;<br />
+&nbsp; &nbsp; &nbsp; gap: 20px;<br />
+&nbsp; &nbsp; &nbsp; justify-content: center;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; .column {<br />
+&nbsp; &nbsp; &nbsp; flex: 1 1 250px;<br />
+&nbsp; &nbsp; &nbsp; max-width: 100%;<br />
+&nbsp; &nbsp; &nbsp; padding: 15px;<br />
+&nbsp; &nbsp; &nbsp; border: 1px solid #ccc;<br />
+&nbsp; &nbsp; &nbsp; border-radius: 10px;<br />
+&nbsp; &nbsp; &nbsp; background-color: #ffffff;<br />
+&nbsp; &nbsp; &nbsp; box-shadow: 0 2px 5px rgba(0,0,0,0.1);<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; .column a {<br />
+&nbsp; &nbsp; &nbsp; display: block;<br />
+&nbsp; &nbsp; &nbsp; padding: 12px 15px;<br />
+&nbsp; &nbsp; &nbsp; margin-bottom: 10px;<br />
+&nbsp; &nbsp; &nbsp; background-color: #007BFF;<br />
+&nbsp; &nbsp; &nbsp; color: white;<br />
+&nbsp; &nbsp; &nbsp; text-align: center;<br />
+&nbsp; &nbsp; &nbsp; text-decoration: none;<br />
+&nbsp; &nbsp; &nbsp; border-radius: 6px;<br />
+&nbsp; &nbsp; &nbsp; font-size: 16px;<br />
+&nbsp; &nbsp; &nbsp; transition: background-color 0.3s ease;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; .column a:hover {<br />
+&nbsp; &nbsp; &nbsp; background-color: #0056b3;<br />
+&nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; @media (max-width: 500px) {<br />
+&nbsp; &nbsp; &nbsp; .column {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; flex: 1 1 100%;<br />
+&nbsp; &nbsp; &nbsp; }<br />
+&nbsp; &nbsp; }<br />
+&nbsp; &lt;/style&gt;<br />
+&lt;/head&gt;<br />
+&lt;body&gt;</p>
+
+<p>&nbsp; &lt;!-- Прелоадер --&gt;<br />
+&nbsp; &lt;div id=&quot;preloader&quot;&gt;<br />
+&nbsp; &nbsp; &lt;img src=&quot;https://i.ibb.co/hJv3FPV7/photo-2025-03-29-12-01-17.jpg&quot; alt=&quot;Логотип BG.GREEN YARD&quot;&gt;<br />
+&nbsp; &lt;/div&gt;</p>
+
+<p>&nbsp; &lt;!-- Основной контент --&gt;<br />
+&nbsp; &lt;div id=&quot;content&quot;&gt;<br />
+&nbsp; &nbsp; &lt;h1&gt;Таблицы bg.green_yard&lt;/h1&gt;<br />
+&nbsp; &nbsp; &lt;div class=&quot;columns&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;div class=&quot;column&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;https://docs.google.com/spreadsheets/d/158Vofd_ksPpxmW21N58p7R78RXHQR0Ufd0u_9HGsyqM/edit?usp=sharing&quot;&gt;КЛИЕНТЫ&lt;/a&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1NagXHIJSy90S--HN3xBvZMZ5pxvMYHoCVAAXDAj2VnM/edit?usp=sharing&quot;&gt;Доходы/Расходы&lt;/a&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ibhkcJZyVix-C18OJW5npQR-RrvfdFhmSm2P6tKV8BM/edit?usp=sharing&quot;&gt;Посещения Май&lt;/a&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;div class=&quot;column&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;https://docs.google.com/spreadsheets/d/18Y1vTtWk3MhtjRuTsrC5zznpO1A3pi5oJ3_KwFmYkkg/edit?usp=sharing&quot;&gt;Посещения Апрель&lt;/a&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+&nbsp; &nbsp; &lt;/div&gt;<br />
+&nbsp; &lt;/div&gt;</p>
+
+<p>&nbsp; &lt;!-- Скрипт для скрытия загрузки --&gt;<br />
+&nbsp; &lt;script&gt;<br />
+&nbsp; &nbsp; window.addEventListener(&#39;load&#39;, function() {<br />
+&nbsp; &nbsp; &nbsp; setTimeout(() =&gt; {<br />
+&nbsp; &nbsp; &nbsp; &nbsp; document.getElementById(&#39;preloader&#39;).style.display = &#39;none&#39;;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; document.getElementById(&#39;content&#39;).style.display = &#39;block&#39;;<br />
+&nbsp; &nbsp; &nbsp; }, 1500); // Задержка 1.5 секунды<br />
+&nbsp; &nbsp; });<br />
+&nbsp; &lt;/script&gt;</p>
+
+<p>&lt;/body&gt;<br />
+&lt;/html&gt;</p>
+</body>
+</html>
